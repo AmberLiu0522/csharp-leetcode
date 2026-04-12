@@ -10,8 +10,8 @@ namespace coding;
 
 public class Class88
 {
-    // 时间复杂度：O(m + n)
-    // 空间复杂度：O(1)
+    // Time：O(m + n)
+    // Space：O(1)
     public int[] MergeAndSort(int[] nums1, int m, int[] nums2, int n)
     {
         // 三个指针：分别指向 nums1有效末尾、nums2末尾、合并后总末尾
