@@ -9,8 +9,8 @@ public class Class88Test
     public void Test1(int[] nums1, int m, int[] nums2, int n, int[] expectedResult)
     {
         // Act
-        Class88 class88 = new Class88();
-        int[] actualResult = class88.Merge(nums1, m, nums2, n);
+        Class88 solution = new Class88();
+        int[] actualResult = solution.MergeAndSort(nums1, m, nums2, n);
 
         Assert.Equal(expectedResult, actualResult);
     }
